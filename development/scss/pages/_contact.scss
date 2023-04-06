@@ -1,0 +1,19 @@
+.contact {
+    &__form {
+        transform: translateX(90px);
+
+        @media screen and (max-width: 1320px) {
+            transform: translateX(0px);
+        }
+    }
+
+    &__oval {
+        position: absolute;
+        top: 37px;
+        right: -40px;
+
+        @media screen and (max-width: 992px) {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.border-btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: $violet;
+    padding: 11px 24px;
+    border-radius: 8px;
+    border: 1px solid $violet;  
+    background: none;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        color: $white;
+        background-color: $violet;
+    }
+}
+
+.violet-btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: $white;
+    background-color: $violet;
+    padding: 11px 24px;
+    border-radius: 8px; 
+    border: 1px solid $violet;
+    transition: all .2s ease-in-out;
+    width: fit-content;
+
+    &:hover {
+        background: none;
+        color: $violet;
+        
+    }
+}

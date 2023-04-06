@@ -1,0 +1,58 @@
+
+.home-page {
+    &__main-img {
+               
+        &::before {
+            content: "";
+            background-image: url('../../img/main-sections-img.png');
+            background-repeat: no-repeat;
+            background-position: right; 
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+
+            @media screen and (max-width: 1200px) {
+                opacity: 0.2;
+            }
+
+            @media screen and (max-width: 768px) {
+                background-position: center;
+            }
+            
+        }
+    }
+
+    &__short-text {
+        max-width: 160px;
+
+        @media screen and (max-width: 768px) {
+            max-width: 100%;
+        }
+    }
+
+    &__background-img {
+        &::before {
+            content: "";
+            background-image: url('../../img/section-right.png');
+            background-repeat: no-repeat;
+            background-position: right; 
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+
+            @media screen and (max-width: 1200px) {
+                opacity: 0.6;
+            }
+
+            @media screen and (max-width: 768px) {
+                background-position: bottom, center;
+            }
+            
+        }
+    }
+}
+

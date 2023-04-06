@@ -1,0 +1,47 @@
+.about-us {
+    &__name {
+        position: absolute;
+        bottom: 63px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &__text {
+        max-width: 305px;
+
+        @media screen and (max-width: 992px) {
+            max-width: 100%;
+        }
+    }
+
+    &__union {
+        position: absolute;
+        top: 210px;
+        left: 0px;
+
+        @media screen and (max-width: 1200px) {
+            top: 300px;
+            left: 0px;
+        }
+
+        @media screen and (max-width: 992px) {
+            display: none;
+        }
+    }
+
+    &__cross {
+        position: absolute;
+        left: 0px;
+        top: 255px;
+
+        @media screen and (max-width: 1270px) {
+            left: 0px;
+            top: 220px;
+        }
+
+        @media screen and (max-width: 1200px) {
+            opacity: 0.2;
+            top: 330px;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.accordion {
+    .accordion-button:focus {
+        box-shadow: none;
+        border-color: rgba(0,0,0,.125);
+    }
+
+    .accordion-button:not(.collapsed){
+        box-shadow: none;
+        background: none;
+        color: $black;
+    }
+
+    &__title { 
+        &::after {
+            content: '';
+            position: absolute;
+            left: 43px;
+            top: 40px;
+            background-image: url('../../img/arrow-top.svg'); 
+
+            @media screen and (max-width: 576px) {
+                left: 20px;
+                top: 26px;
+            }
+        }
+
+
+        &:not(.collapsed) {
+
+            &::after {
+                content: '';
+                position: absolute;
+                background-image: url('../../img/image.png');
+                transform: rotate(90deg);                            
+            }
+        }       
+    }
+
+    &__content {
+        max-width: 688px;
+    }
+}

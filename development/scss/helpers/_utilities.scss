@@ -1,0 +1,107 @@
+.fw-medium {
+    font-weight: 500;
+}
+
+.br-8 {
+    border-radius: 8px;
+}
+
+.br-16 {
+    border-radius: 16px !important;
+}
+
+// #B46E9E
+.bb-224 {
+    border-bottom: 2px solid $pink;
+    width: 224px;   
+    padding-bottom: 6px;
+}
+
+// #B46E9E
+.bb-center {
+    width: 200px;
+    height: 2px;
+    background: $pink;
+}
+
+.w-fit-content {
+    width: fit-content;
+}
+
+// #0E0320
+.text-violet {
+    color: $violet;
+}
+
+// #B46E9E
+.text-pink {
+    color: $pink;
+}
+
+// #57A2CB
+.text-blue {
+    color: $blue;
+}
+
+// #028092
+.text-green {
+    color: $green;
+}
+
+// #B7B2C2
+.text-gray02 {
+    color: $gray02;
+}
+
+// #777381
+.text-gray05 {
+    color: $gray05;
+}
+
+// #574C67
+.text-purple {
+    color: $purple;
+}
+
+// #FFFFFF
+.text-white {
+    color: $white;
+}
+
+.bg-white {
+    background: $white;
+}
+
+// #FFFFFF
+.bg-white-shadow {
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 24px rgba(101, 117, 141, 0.1);
+}
+
+// #0E0320
+.bg-violet {
+    background: $violet;
+}
+
+// #F6F5FA
+.bg-gray {
+    background: $gray;
+}
+
+// #F4F9FA
+.bg-gray03 {
+    background: $gray03;
+}
+
+// #EBF3F9 
+.bg-gray04 {
+    background: $gray04;
+}
+
+// #F5F5F5
+.bg-gray06 {
+    background: $gray06;
+}
+
+
+
